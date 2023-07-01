@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.nlink-lesson-template { 
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 19px !important;
+    line-height: 90.5%;
+    color: #222222 !important;
+}
+.lesson-template-content { 
+    background-color: #EAF2FF;
+    padding: 10px;
+}
+.extra-content-lesson-template { 
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 20px;
+}
+.extra-include-block { 
+    padding: 25px;
+}
+.number-of-lesson-template { 
+    width: 80px !important;
+    font-size: 17.8722px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #423EFF;
+    border: 0.815257px solid #423EFF;
+    border-radius: 9.78308px;
+    padding: 8.15257px;
+}
+.title-lesson-elements { 
+    font-size: 30px;
+    line-height: 33px;
+    color: #020F2D;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 28px !important;
+}
+video { 
+    width: 80% !important;
+    height: 400px;
+    border-radius: 15.8543px !important;
+}
+.context-of-lesson-element { 
+    font-size: 32px;
+    line-height: 42px;
+    color: #020F2D;
+    margin-top: 40px !important;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.text-elements-of-lesson-template { 
+    width: 83% !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #020F2D;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+
+}
+
+.continue-button-bottom { 
+    background: #4A3AFF;
+    /* Buttons/Shadow */
+    box-shadow: 0px 8px 22px rgba(74, 58, 255, 0.26);
+    border-radius: 86px;
+    padding: 28px 50px;
+    border: none !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    position:relative;
+    left: 70%;
+/* margin-top:50%; */
+    color: #FFFFFF;
+}
+@media screen and (max-width:500px) {
+    .text-elements-of-lesson-template { 
+        width: 100% !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #020F2D;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 25px;
+    
+    }
+    video { 
+        width: 100% !important;
+        height: 400px;
+        border-radius: 15.8543px !important;
+    }
+    .continue-button-bottom { 
+        background: #4A3AFF;
+        /* Buttons/Shadow */
+        box-shadow: 0px 8px 22px rgba(74, 58, 255, 0.26);
+        border-radius: 86px;
+        padding: 28px 50px;
+        border: none !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        position:relative;
+        left: 35%;
+    /* margin-top:50%; */
+        color: #FFFFFF;
+    }
+    .extra-include-block { 
+        padding: 10px;
+    }
+}
+.extra-resources-lesson { 
+    width: 292px;
+    height: 152px;
+}
+.text-resources-lesson { 
+    color: #020F2D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 293px;
+}
+.out-block-card { 
+    padding: 24px 15px;
+    box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 18.268px;
+}
+.inner-block-card { 
+    display: flex;
+    align-items: center;
+    border: none !important;
+}
+.button-for-download-resources {
+    display: flex;
+    width: 99%;
+    height: 60px;
+    padding: 28px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 86px;
+    border: 2px solid #4A3AFF;
+    background: rgba(74, 58, 255, 0.00);
+    /* Buttons/Shadow */
+    box-shadow: 0px 8px 22px 0px rgba(74, 58, 255, 0.26);
+    color: #4A3AFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}

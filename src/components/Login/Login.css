@@ -1,0 +1,47 @@
+.login-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo-item-div {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.img-logo {
+    margin: auto;
+    width: 291px;
+    height: 77px;
+}
+
+.form-login-container {
+    background: #F7F7F5;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.title-of-form {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.forget-password-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #423EFF;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 18px 193.344px 18px 193.656px;
+    background: #423EFF;
+    border-radius: 10px;
+}
