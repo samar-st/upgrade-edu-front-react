@@ -6,9 +6,10 @@
     display: none !important;
 }
 .card-box-courses { 
+    width: calc(25% - 20px);
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background: #FFFFFF;
     border-radius: 20px !important;
@@ -86,3 +87,20 @@
         display: block !important;
     }
 }
+.card-container-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between; /* Добавляем промежутки между карточками */
+  }
+  @media (max-width: 768px) {
+    .card-box-courses {
+      width: calc(50% - 10px); /* При ширине экрана до 768px, уменьшаем ширину карточек до 50% */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-box-courses {
+      width: calc(100% - 2px); /* При ширине экрана до 576px, устанавливаем ширину карточек на 100% */
+    }
+  }

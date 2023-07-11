@@ -3,7 +3,7 @@ import Login from "./components/Login/Login";
 import "./App.css";
 // import Header from './components/header/Header';
 // import Main from './components/main-section/Main';
-// import Courses from './components/course-modules/Courses';
+import Courses from './components/course-modules/Courses';
 import Module1 from "./components/module-1/Module1";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
@@ -37,6 +37,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
+    
   );
 }
 
