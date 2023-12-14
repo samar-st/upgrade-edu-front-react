@@ -109,7 +109,7 @@ const Module1 = () => {
       {/* Modal for unactive lesson buttons */}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Внимание!</Modal.Title>
         </Modal.Header>
         <Modal.Body>You don't have access to this lesson!</Modal.Body>
         <Modal.Footer>
